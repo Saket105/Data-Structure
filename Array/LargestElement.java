@@ -28,7 +28,8 @@ public class LargestElement {
 	
 //	Method 2
 //	Efficient method
-	static int getLargest(int a[]) {
+	static int getLargest(int a[]) 
+	{
 		int n= a.length;
 		int res=0;
 		for(int i=0;i<n;i++) {
